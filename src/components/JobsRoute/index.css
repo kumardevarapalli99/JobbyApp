@@ -1,0 +1,431 @@
+.jobs-main-container {
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #000000;
+  overflow: auto;
+}
+
+.jobs-inner-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.jobs-side-container {
+  height: 100vh;
+  width: 350px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 80px;
+  gap: 10px;
+}
+
+.profile-container {
+  height: 150px;
+  width: 200px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-position: center;
+  background-size: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.profile-icon {
+  height: 40px;
+  width: 40px;
+  color: #000000;
+}
+
+.profile-name {
+  font-family: Roboto;
+  color: #64748b;
+  font-size: 15px;
+}
+
+.profile-data {
+  font-family: Roboto;
+  color: #64748b;
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.horizontal-line1 {
+  width: 200px;
+  background-color: #ffffff;
+  height: 2px;
+  margin-right: -1px;
+}
+
+.horizontal-line2 {
+  width: 200px;
+  background-color: #ffffff;
+  height: 2px;
+  margin-right: -1px;
+  margin-top: -10px;
+}
+
+.employment-type {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.employment-container {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: -15px;
+}
+
+.employment-ul-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+  margin-left: -45px;
+  margin-top: -10px;
+}
+
+.employment-li-container {
+  height: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.employment-label {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.jobs-center-container {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  padding-top: 80px;
+}
+
+.search-container {
+  height: 40px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.jobs-search-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.search-input {
+  height: 40px;
+  width: 100%;
+  border: 2px solid #272727;
+  outline: none;
+  background-color: transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: text;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.search-label {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search-icon {
+  height: 30px;
+  width: 30px;
+  color: #ffffff;
+}
+
+.job-center-inner-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  overflow: auto;
+  padding-top: 0px;
+  padding: 20px;
+
+  scrollbar-width: none;
+}
+
+.search-button {
+  background-color: #272727;
+  border-width: 0px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.job-center-inner {
+  height: 100%;
+  width: 100%;
+}
+
+.ul-job-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  margin-left: -60px;
+}
+
+.job-li-container {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #272727;
+  padding: 20px;
+}
+
+.company-logo-container {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.company-logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.title-rating-container {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: -5px;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.rating {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.star-icon-container {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 3px;
+  margin-top: -5px;
+}
+
+.star {
+  height: 15px;
+  width: 15px;
+  color: yellow;
+}
+
+.location-employmentType-container {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.location-employment {
+  height: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.location-container {
+  height: 100%;
+  max-width: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.location-icon {
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+}
+
+.location {
+  font-family: Roboto;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.package-per-annum {
+  font-family: Roboto;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.line {
+  width: 100%;
+  color: #ffffff;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.description-container {
+  height: 100px;
+  width: 100%;
+}
+
+.description-heading {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.job-description {
+  font-family: Roboto;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.loader-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.failure-view-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.failure-view-image {
+  height: 300px;
+  width: 300px;
+}
+
+.failure-view-heading {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.failure-view-para {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.failure-view-button {
+  height: 30px;
+  width: 90px;
+  border-width: 0px;
+  background-color: #4f46e5;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.no-jobs-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-jobs-image {
+  height: 300px;
+  width: 300px;
+}
+
+.profile-error {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
